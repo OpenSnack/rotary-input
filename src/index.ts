@@ -112,7 +112,6 @@ export default class RotaryInput<T> {
         const rotary = select(this.svg).select('g.rotary');
         if (transition) {
             const currentAngle = Number(rotary.style('transform').match(/rotate\(([-\d\.]+)rad\)/)?.[1] || 0);
-            console.log(currentAngle, angle);
             rotary.transition()
                 .styleTween('transform', () => {
                     return (t: number) => `rotate(${t * angle + (1 - t) * currentAngle}rad)`;
