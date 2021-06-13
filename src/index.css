@@ -1,0 +1,9 @@
+.rotary-input g.rotary {
+    transform-origin: center;
+}
+
+.rotary-input text.label {
+    dominant-baseline: middle;
+    text-anchor: middle;
+    user-select: none;
+}
