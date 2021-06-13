@@ -1,6 +1,6 @@
 # rotary-input
 
-I have no idea why I made this.
+~~I have no idea why I made this.~~ This incredible idea came to me in a dream. It will revolutionize text input.
 
 ## Try it for some reason
 
